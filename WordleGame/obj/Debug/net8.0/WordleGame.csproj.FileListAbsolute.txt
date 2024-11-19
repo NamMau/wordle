@@ -1,0 +1,14 @@
+D:\1651\code\Wordle\WordleGame\bin\Debug\net8.0\WordleGame.exe
+D:\1651\code\Wordle\WordleGame\bin\Debug\net8.0\WordleGame.deps.json
+D:\1651\code\Wordle\WordleGame\bin\Debug\net8.0\WordleGame.runtimeconfig.json
+D:\1651\code\Wordle\WordleGame\bin\Debug\net8.0\WordleGame.dll
+D:\1651\code\Wordle\WordleGame\bin\Debug\net8.0\WordleGame.pdb
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.AssemblyInfoInputs.cache
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.AssemblyInfo.cs
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.csproj.CoreCompileInputs.cache
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.dll
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\refint\WordleGame.dll
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.pdb
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\WordleGame.genruntimeconfig.cache
+D:\1651\code\Wordle\WordleGame\obj\Debug\net8.0\ref\WordleGame.dll
