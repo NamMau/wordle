@@ -18,7 +18,7 @@ namespace WordleGame
                 return;
             }
 
-            // Read the word list, filter for words of exactly 5 letters, and convert them to uppercase
+            //filter for words of exactly 5 letters
             var wordList = File.ReadAllLines(filePath)
                                .Where(w => w.Length == 5) // Only words with 5 letters
                                .Select(w => w.ToUpper()) // Convert words to uppercase
@@ -29,8 +29,8 @@ namespace WordleGame
 
             // Randomly select a target word from the word list
             string targetWord = wordList[new Random().Next(wordList.Length)];
-            bool isWin = false; // Flag to track if the user wins
-            int currentTurn = 1; // Track the number of turns
+            bool isWin = false; 
+            int currentTurn = 1;
 
             // Game play user has max 6 turns
             while (currentTurn <= 6 && !isWin)
@@ -59,9 +59,9 @@ namespace WordleGame
                 char[] feedback = new char[5];
                 bool[] targetUsed = new bool[5]; // Track which letters in the target word have been used
 
-                // Check exact matches (green - 'G')
+                // Check exact matches is G
                 for (int i = 0; i < 5; i++)
-                    feedback[i] = (guess[i] == targetWord[i]) ? 'G' : 'X'; // Mark 'G' for correct letters, 'X' for incorrect
+                    feedback[i] = (guess[i] == targetWord[i]) ? 'G' : 'X';
 
                 // Check for letters that are in the target word but in the wrong position (yellow - 'Y')
                 for (int i = 0; i < 5; i++)
